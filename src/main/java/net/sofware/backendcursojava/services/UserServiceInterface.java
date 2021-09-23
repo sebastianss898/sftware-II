@@ -1,5 +1,9 @@
 package net.sofware.backendcursojava.services;
 
-public class UserServiceInterface {
+import net.sofware.backendcursojava.shared.dto.UserDTO;
+
+public interface UserServiceInterface {
+
+    public UserDTO createUser(UserDTO userDTO);
     
 }
